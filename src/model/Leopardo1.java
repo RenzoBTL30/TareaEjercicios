@@ -8,14 +8,14 @@ public class Leopardo1 extends Thread{
 
 	@Override
 	public void run() {
-		for (int i = 1; i <= 20; i++) {
+		for (int i = 1; i <= 12; i++) {
 			try {
 				Thread.sleep(1000);
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
 			System.out.println(Thread.currentThread().getName() + " corrio " +i+ " mts" );
-			if (i % 10 == 0) {
+			if (i % 8 == 0) {
 				try {
 					Thread.sleep(700);
 				} catch (Exception e) {

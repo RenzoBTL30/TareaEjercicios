@@ -18,7 +18,4 @@ public class Cubos extends Thread{
 		}
 		System.out.println("La suma es: " + suma);
 	}
-	
-	
-	
 }

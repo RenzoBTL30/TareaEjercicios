@@ -8,7 +8,6 @@ public class Factorial extends Thread{
 		this.numero = numero;
 	}
 	
-	
 	@Override
 	public void run() {
 		
@@ -19,6 +18,5 @@ public class Factorial extends Thread{
 		}
 		System.out.println("El factorial es: " + fact);
 	}
-	
 	
 }
